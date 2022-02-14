@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+	font-family: 'arial';
+	src: url('../fonts/arial.eot');
+	src: local('☺'), url('../fonts/arial.woff') format('woff'), url('../fonts/arial.ttf') format('truetype'), url('../fonts/arial.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.loader {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+.ql-editor{
+    min-height:100px;
+}
+
+.MuiRadio-colorPrimary.Mui-checked {
+    color: #008b5e !important;
+}
+
+*, *::before, *::after  {
+    box-sizing: border-box;
+} 
+
+body {
+    color: #111111;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding: 0;
+}
+
+html, body {height: 100%;}
+
+#root {min-height: 100%; position: relative; width: 100%;}
+
+
+img {
+    max-width: 100%;
+}
+a {
+    color: #111111;
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+a:hover {
+    color: #008b5e;
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+}
+ul,
+li,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: #000;
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
